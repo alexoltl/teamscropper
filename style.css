@@ -1,0 +1,8 @@
+.download-container {
+    text-align: center;
+}
+
+.button-container {
+    display: inline-block; /* Keeps them in line while allowing centering */
+    margin: 5px; /* Small spacing */
+}

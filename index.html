@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>osu!Teams image cropper.</title>
+</head>
+<body>
+    <h1>osu!Teams cropper</h1>
+    <p>Upload an image file and this website will return the image cut up to upload as the header, flag, and decription, which should align with the original image on the osu! team page. It will also try to resize all 3 elements as best as it can to the uploading requirements.</p>
+    <p>Example:</p>
+    <img src="example.png"/>
+    <p>Please use a vertical image file, else stuff breaks :p</p>
+    <p>My user page is <a href="https://osu.ppy.sh/users/36780331">wait im washed</a>. Mutual with me!</p>
+    <input type="file" id="fileInput">
+    <br>
+    <button id="applyCrops">Crop image to perfection.</button>
+    <div class="wrappertest">
+        <div class="download-container" id="downloadContainer"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
